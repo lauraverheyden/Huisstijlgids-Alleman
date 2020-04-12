@@ -1,0 +1,158 @@
+/* Navigation*/
+.navnav{
+    
+    background: #aacbdd;
+    max-width:100%;
+    height: 750px;
+    color: #153a63;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul li a{
+    color: #153a63 !important;
+    
+
+}
+
+ul li a:hover{
+    color: #153a63 !important;
+    background-color: #aacbdd
+
+}
+
+ul li a:hover{
+    color: #153a63 !important;
+    
+
+}
+
+.nav-link:hover{
+    background-color:white
+}
+
+
+ul{
+    width:80%;
+    margin: 0 auto;
+    padding:0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px
+}
+
+
+
+.sticky-top{
+    
+    background-color: #fff;
+    width:100%
+}
+
+button.toggle{
+    background-color: #fff
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff
+}
+
+
+.toggle {
+    width:100%;
+    float: right;
+    padding: 10px 40px;
+    
+    border: none;
+    text-align:right;
+    box-sizing: border-box;
+    color: #aacbdd;
+    font-size: 30px;
+    display:none
+}
+
+a .toggle:hover {
+    text-decoration:none!important;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align:right;
+    color:#153a63;
+    text-decoration: underline ;
+    text-underline-position: under; 
+    
+    color: #153a63;
+    font-size: 30px;
+
+}
+
+
+
+.navbar-brand{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #153a63;
+    text-transform: uppercase;
+    font-size: 35px;
+    
+}
+
+.navbar-nav {
+    color:#DAE0E8;
+    position: fixed;
+    width:100%;
+    text-align: center
+    
+}
+
+.navbar .navbar-collapse {
+    text-align: center
+}
+
+.nav-link:hover{
+    color:#153a63;
+    text-decoration: underline ;
+    text-underline-position: under; 
+}
+
+.actief{
+    
+    text-decoration: underline ;
+    text-decoration-color: #153a63;
+    text-underline-position: under;  
+}
+
+.nav-link{
+    font-family: 'Assistant', sans-serif;
+    font-size: 12px;
+    color:#153a63
+}
+
+.nav-item {
+    text-align: center;
+    margin-right:2em 
+}
+
+.anchor:before{
+    
+        content: "";
+        display: block;
+        padding-top: 30px; /* header height + empty space */
+        margin-top: -90px; /* header height to degrees padding’s space */
+        }
+
+
+
