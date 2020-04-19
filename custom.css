@@ -156,7 +156,7 @@ button.toggle{
     left: 0;
     width: 100%;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     background-color: #fff
 }
 
@@ -233,7 +233,7 @@ a .toggle:hover {
 
 .nav-item {
     text-align: center;
-    margin-right:1em 
+    margin-right:0.5em 
 }
 
 .anchor:before{
@@ -284,7 +284,7 @@ a .toggle:hover {
 }
 
 .container6 {
-    max-width: 100%;
+    width: 100%;
     background-color: #fff
 }
 
