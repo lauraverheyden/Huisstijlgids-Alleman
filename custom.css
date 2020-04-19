@@ -1,7 +1,25 @@
+
+
+
+/* Header*/
+
+.jumbotron{
+    background-image: url(img/banner.svg);
+    background-size: 150%;
+    height: 750px;
+  
+   
+    
+}
+
+.background{
+    background-color: #50adc9
+}
+
 /* Navigation*/
 .navnav{
     
-    background: #aacbdd;
+    background: #f0c827;
     max-width:100%;
     height: 750px;
     color: #153a63;
@@ -15,22 +33,21 @@
 }
 
 ul li a{
-    color: #153a63 !important;
+    color: #261f5b !important;
     
 
 }
 
 ul li a:hover{
-    color: #153a63 !important;
-    background-color: #aacbdd
-
-}
-
-ul li a:hover{
-    color: #153a63 !important;
+    color: #50adc9;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold !important;
     
 
 }
+
+
 
 .nav-link:hover{
     background-color:white
@@ -49,11 +66,13 @@ ul li{
     padding: 20px
 }
 
-
+.logo:hover{
+    background-color: white;
+}
 
 .sticky-top{
     
-    background-color: #50ADC9;
+    background-color: #fff;
     width:100%
 }
 
@@ -81,7 +100,7 @@ button.toggle{
     border: none;
     text-align:right;
     box-sizing: border-box;
-    color: #aacbdd;
+    color: #50adc9;
     font-size: 30px;
     display:none
 }
@@ -91,19 +110,18 @@ a .toggle:hover {
     padding: 10px 40px;
     text-decoration: none;
     text-align:right;
-    color:#153a63;
-    text-decoration: underline ;
-    text-underline-position: under; 
-    
-    color: #153a63;
+    color:#261f5b;
     font-size: 30px;
 
 }
 
-
+.nav2:hover{
+    background-color: #f0c827;
+    text-decoration: none;
+}
 
 .navbar-brand{
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: #153a63;
     text-transform: uppercase;
     font-size: 35px;
@@ -123,27 +141,30 @@ a .toggle:hover {
 }
 
 .nav-link:hover{
-    color:#153a63;
-    text-decoration: underline ;
-    text-underline-position: under; 
+    color:#50adc9 !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    
 }
 
 .actief{
     
-    text-decoration: underline ;
-    text-decoration-color: #153a63;
-    text-underline-position: under;  
+    
+    color: #50adc9;
+   
 }
 
 .nav-link{
-    font-family: 'Assistant', sans-serif;
-    font-size: 12px;
-    color:#153a63
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:#261f5b
 }
 
 .nav-item {
     text-align: center;
-    margin-right:2em 
+    margin-right:1em 
 }
 
 .anchor:before{
@@ -156,3 +177,484 @@ a .toggle:hover {
 
 
 
+
+
+/* Body*/
+
+.container {
+    position: relative;
+    max-width: 80%;
+    
+    
+}
+.container2 {
+    
+    position: relative;
+    margin-top: 125px;
+    
+    max-width: 80%
+}
+
+
+
+
+
+
+/*index */
+.container5 {
+    position: relative;
+    margin-top: 175px;
+    max-width: 75%
+
+}
+
+.container6 {
+    max-width: 100%;
+    background-color: #fff
+}
+
+.container7 {
+    position: relative;
+    margin-top: 50px;
+    max-width: 60%
+
+}
+/*Project */
+.container8 {
+    position: relative;
+    margin-top: 70px;
+    width: 75%;
+
+}
+
+.container9 {
+    position: relative;
+    margin-top: 0px;
+    max-width: 80%;
+   
+
+}
+
+.container10 {
+    position: relative;
+    
+    
+    max-width: 60%
+
+}
+
+.container11 {
+    
+    width: 75%;
+
+}
+.floatright{
+    float:right;
+    
+    
+}
+
+.floatleft{
+    float:left;
+    margin-left: 20px;
+    
+}
+
+.work /*grijs overlay*/{
+    
+   
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+     
+}
+
+.work:hover{
+    
+   
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+     
+}
+
+.dl{
+    margin-bottom: 30px
+}
+
+.GTKM{
+    background-color: #fdeaec
+}
+
+.me{
+    margin-top: -40px
+}
+/* Titles*/
+
+h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#153a63;
+    text-transform: uppercase;
+    
+
+}
+h2{
+    
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #153a63;
+    text-transform: uppercase;
+    font-size:45px;
+    
+
+}
+
+h3{
+    
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #153a63;
+    text-transform: uppercase;
+    font-size:20px;
+   
+    
+    
+}
+
+
+p{
+    
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #261f5b;
+    
+}
+.accent {
+    
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #261f5b;
+    font-weight: bold;
+    
+}
+
+.link{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #aacbdd !important;
+    font-weight: bold
+}
+
+.link:hover{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #261f5b !important;
+    font-weight: bold;
+    background-color: #fff
+}
+
+.cv:hover{
+    background-color: #153a63!important;
+}
+
+.GITlink:hover{
+    background-color: #aacbdd!important;
+    color: #153a63 
+}
+
+h1{
+    color: #261f5b;
+    font-size:50px;
+    line-height: 1,2;
+    font-family: 'Rubik', sans-serif;
+    margin-top: -30px
+
+}
+
+h5{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color:#153a63;
+    text-transform: uppercase;
+    
+
+}
+h6{
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color:#153a63;
+    font-weight: bold
+
+}
+
+.portfolio /*titel van project */{
+    background-color: #153a63;
+    color:#fff;
+    margin-top: -20;
+    margin-bottom: 30px;
+}
+.project{
+    
+    text-transform: capitalize;
+}
+
+
+.button{
+    
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #333333;
+    font-weight: 100px;
+    margin-top: 200px;
+    border-bottom: #333333;
+    border-bottom: 1px solid;
+
+}
+
+.button:hover{
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    color: #153a63;
+    background-color: white;
+    font-weight: 100px;
+    margin-top: 200px;
+    
+    border-bottom: 2px solid;
+    text-decoration: none
+
+}
+
+a.mail{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color:#083A65;
+}
+
+.link{
+    color:#083A65;
+    text-decoration: underline
+}
+
+.blur{
+    margin-bottom: 30px
+}
+
+
+/* Button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color:#153a63;
+  border-color: #153a63;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 25px;
+  
+}
+
+#myBtn:hover {
+  background-color:white;
+  color: #153a63
+}
+
+
+.buttoncv{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:#aacbdd;
+    border-color: #153a63;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 3px;
+    color: #153a63;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px 50px;
+    border-radius: 25px;
+    margin-bottom: 80px
+
+}
+
+.buttoncv:hover{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:#153a63;
+    border-color: #153a63;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 3px;
+    color: #fdeaec;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px 50px;
+    border-radius: 25px;
+    margin-bottom: 80px
+
+}
+
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #DAE0E8;
+    color: #153a63;
+  }
+
+.previous:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #153a63;
+    color: #fff;
+  }
+  
+.next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #aacbdd;
+    color: white;
+  }
+
+.next:hover {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #153a63;
+    color: #fff;
+  }
+  
+.round {
+    border-radius: 50%;
+  }
+
+
+/* sayhello*/
+
+.container4 {
+    width:100%;
+    height:550px;
+    background-color: #aacbdd
+    
+}
+
+/* Footer */
+
+.footer-bottom {
+    background-color:#153a63;
+    background-size: cover;
+    width: 100%;
+    display: block;
+}
+  
+.container3 {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.footer{
+    font-size: 14px;
+    color: #261f5b;
+   
+   
+}
+
+.download{
+    font-size: 14px;
+    color: #FFFEFA;
+    text-decoration: underline
+}
+
+.download:hover{
+    font-size: 14px;
+    color: #FFFEFA;
+    text-decoration: underline
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... } */
+
+  /* Medium devices (tablets, 768px and up)*/
+  @media (max-width: 768px) {
+    .display-3{
+        font-size: 100px
+    }
+    .lead{
+        font-size: 20px
+    }
+    .button{
+        width: 100%
+    }
+   
+    .container {
+        position: relative;
+        width: 100%;
+    }
+    
+    ol{
+        -webkit-column-count: 2;
+        -moz-column-count: 2; 
+        column-count: 2;
+        -webkit-column-rule-style: dashed;
+        -webkit-column-rule-color: orange;
+        -webkit-column-rule-width:2px;
+        width:95%;
+        list-style: inside decimal;
+        text-align: center
+
+    }
+
+}
+
+@media (max-width: 768px){
+    .toggle{
+        display: block
+    }
+
+ul{
+    width: 100%;
+    display: none
+}
+
+ul li {
+    display: block;
+    text-align:center
+}
+ 
+.active{
+    display: block
+}
+}
+
+  /* Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }*/
+  
+  /* Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }*/
