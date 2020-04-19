@@ -1,4 +1,73 @@
 
+/* Titles*/
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    line-height: normal;
+    font-weight: 900;
+    color:#261f5b;
+}
+
+h2{
+    
+    font-family: 'Rubik', sans-serif;
+    color: #261f5b;
+    font-weight: 900;
+    font-size:45px;
+}
+
+
+h3{
+    
+    font-family: 'Rubik', sans-serif;
+    color: #00afcd;
+    font-weight: 900;
+    font-size:20px;
+}
+
+
+p{
+    
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    color: #261f5b;
+    
+}
+p.accent {
+    
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    color: #00afcd;
+    font-weight: bold;
+    
+}
+
+
+
+.link{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #00afcd !important;
+    font-weight: bold
+}
+
+.link:hover{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: #261f5b !important;
+    font-weight: bold;
+    
+}
+
+.cv:hover{
+    background-color: #153a63!important;
+}
+
+.GITlink:hover{
+    background-color: #aacbdd!important;
+    color: #153a63 
+}
 
 
 /* Header*/
@@ -190,12 +259,18 @@ a .toggle:hover {
 .container2 {
     
     position: relative;
-    margin-top: 125px;
+    margin-top: 100px;
     
     max-width: 80%
 }
 
-
+.container33 {
+    
+    position: relative;
+    margin-top: 125px;
+    
+    max-width: 80%
+}
 
 
 
@@ -260,21 +335,8 @@ a .toggle:hover {
     
 }
 
-.work /*grijs overlay*/{
-    
-   
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-     
-}
 
-.work:hover{
-    
-   
-        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(0%);
-     
-}
+
 
 .dl{
     margin-bottom: 30px
@@ -287,80 +349,20 @@ a .toggle:hover {
 .me{
     margin-top: -40px
 }
-/* Titles*/
 
-h1{
-    font-family: 'Rubik', sans-serif;
-    font-size: 50px;
-    line-height: normal;
-    font-weight: 900;
-    color:#261f5b;
+.grijs{
+    background-color: rgb(241, 241, 241);
 }
 
-h2{
-    
-    font-family: 'Rubik', sans-serif;
-    color: #261f5b;
-    font-weight: 900;
-    font-size:45px;
+.blauw{
+    background-color: #00afcd;
 }
-
-
-h3{
-    
-    font-family: 'Rubik', sans-serif;
-    color: #00afcd;
-    font-weight: 900;
-    font-size:20px;
-}
-
-
-p{
-    
-    font-size: 15px;
-    font-family: 'Muli', sans-serif;
-    color: #261f5b;
-    
-}
-.accent {
-    
-    font-size: 15px;
-    font-family: 'Muli', sans-serif;
-    color: #261f5b;
-    font-weight: bold;
-    
-}
-
-.link{
-    font-size: 16px;
-    font-family: 'Muli', sans-serif;
-    color: #50adc9 !important;
-    font-weight: bold
-}
-
-.link:hover{
-    font-size: 16px;
-    font-family: 'Muli', sans-serif;
-    color: #261f5b !important;
-    font-weight: bold;
-    
-}
-
-.cv:hover{
-    background-color: #153a63!important;
-}
-
-.GITlink:hover{
-    background-color: #aacbdd!important;
-    color: #153a63 
-}
-
-
 
 
 
 .portfolio /*titel van project */{
-    background-color: #153a63;
+    background-color: #261f5b;
+    font-family: 'Rubik', sans-serif;
     color:#fff;
     margin-top: -20;
     margin-bottom: 30px;
@@ -371,40 +373,12 @@ p{
 }
 
 
-.button{
-    
-    font-size: 14px;
-    font-family: 'Assistant', sans-serif;
-    color: #333333;
-    font-weight: 100px;
-    margin-top: 200px;
-    border-bottom: #333333;
-    border-bottom: 1px solid;
 
-}
 
-.button:hover{
-    font-size: 14px;
-    font-family: 'Assistant', sans-serif;
-    color: #153a63;
-    background-color: white;
-    font-weight: 100px;
-    margin-top: 200px;
-    
-    border-bottom: 2px solid;
-    text-decoration: none
 
-}
-
-a.mail{
-    font-family: 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    color:#083A65;
-}
 
 .link{
-    color:#083A65;
+    color:#261f5b;
     text-decoration: underline
 }
 
@@ -424,7 +398,7 @@ a.mail{
   border: none;
   outline: none;
   background-color:#153a63;
-  border-color: #153a63;
+  
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
@@ -436,51 +410,49 @@ a.mail{
   
 }
 
-#myBtn:hover {
-  background-color:white;
-  color: #153a63
-}
 
 
-.buttoncv{
+
+.download{
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     margin: 2px 2px;
-    font-family: 'Trebuchet MS', sans-serif;
-    background-color:#aacbdd;
-    border-color: #153a63;
+    font-family: 'Rubik', sans-serif;
+    background-color: #261f5b;
     border-radius: 2px;
     border-style: solid;
     border-width: 3px;
-    color: #153a63;
+    color: #fff;
     font-weight: bold;
     cursor: pointer;
     padding: 14px 50px;
-    border-radius: 25px;
+    border-radius: 30px;
     margin-bottom: 80px
 
 }
 
-.buttoncv:hover{
+.download:hover{
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     margin: 2px 2px;
-    font-family: 'Trebuchet MS', sans-serif;
-    background-color:#153a63;
-    border-color: #153a63;
+    font-family: 'Rubik', sans-serif;
+    background-color:#00afcd !important;
     border-radius: 2px;
-    border-style: solid;
     border-width: 3px;
-    color: #fdeaec;
+    color: #fff;
     font-weight: bold;
     cursor: pointer;
     padding: 14px 50px;
-    border-radius: 25px;
+    border-radius: 30px;
     margin-bottom: 80px
 
 }
+
+
+
+
 
 
 a:hover {
@@ -536,17 +508,12 @@ a:hover {
 
 /* Footer */
 
-.footer-bottom {
-    background-color:#153a63;
-    background-size: cover;
-    width: 100%;
-    display: block;
-}
+
   
 .container3 {
     height: 100%;
     width: 100%;
-    background-color: #50adc9;
+    background-color: #00afcd;
     
     
 }
@@ -558,17 +525,7 @@ a:hover {
    
 }
 
-.download{
-    font-size: 14px;
-    color: #FFFEFA;
-    text-decoration: underline
-}
 
-.download:hover{
-    font-size: 14px;
-    color: #FFFEFA;
-    text-decoration: underline
-}
 
 
 /* Extra small devices (portrait phones, less than 576px)
